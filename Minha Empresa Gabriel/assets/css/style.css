@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 60px;
+}
+
+.cabecalho ul {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho ul li a {
+    color: #fff;
+}
+
+.cabecalho .menu {
+    display: none;
+
+}
+
+.main {
+    padding: 30px 60px;
+}
+
+.btn {
+    width: 250px;  /* Largura */
+    border: 2px black solid; /* Adiciona borda, expressura, e o tipo da borda */
+    border-radius: 4px; /* Deixa arredondado */
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+    text-align: center; /* deixa a escrita no centro */
+}
+
+.btn:hover {
+    background: #444;
+}
+
+
+.rodape {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .cabecalho nav {
+        display: none;
+    }
+    .cabecalho .menu {
+        display: flex;
+    }
+    
+}
+
+.btn2:hover {
+    background-color: rgba(46, 36, 36, 0.719);
+    border-radius: 5px;
+    font-weight: bolder; /* nEGRITA A FONTE DA LETRA */
+
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+
+
+   
+}
+
+.cabecalho2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 60px;
+    
+
+
+}
+ .cabecalho2 ul {
+    display: flex;
+    gap: 30px;
+    
+   
+ }
+
+ .cabecalho2 li a {
+    color: #fff;
+ }
+
+ @media screen and (max-width: 600px) {
+    .cabecalho2 nav {
+        display: none
+
+    }
+
+    
+}
+
