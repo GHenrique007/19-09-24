@@ -1,0 +1,16 @@
+body {
+    background-image:url(../img/forest-9052633_1280.jpg);
+    background-repeat: no-repeat; /* Fundo não repete */
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    backdrop-filter: blur(3px);
+
+} 
+p {
+    color: #fff;
+}
+
+
+
+
